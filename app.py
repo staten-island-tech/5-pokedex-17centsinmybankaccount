@@ -31,10 +31,15 @@ def choose_lang():
 # Develop a function that creates a new list of pokemon based on the type the user searched for. If no pokemon was found of that type inform the user
 
 #Develop a function to find all pokemon matching the name the user searched for. Ex. if "Char" return Charmander, Charmeleon and Charizard. Make the user aware if no pokemon was found. 
-def searchasssist(x):
-    search = input("What pokemon are youy trying to find?")
-    for search in data():
-        print(x)
-searchasssist(x=1)
+def poke_search():
+    searchagain = input("efeffweffe")
+    y = searchagain.capitalize()
+    if y == "Yes"():
+        search = input("What Pokemon Are You Trying to Find")
+        for poke_names in data:
+            for search in poke_names["name"]["english"]:    
+                print(poke_names["name"]["english"])
+poke_search()
+
 #For Leo/, help me come up with a clever final question, considering maybe showing all moves a pokemon has avaiable based on type
 
