@@ -32,9 +32,9 @@ def choose_lang():
 
 #Develop a function to find all pokemon matching the name the user searched for. Ex. if "Char" return Charmander, Charmeleon and Charizard. Make the user aware if no pokemon was found. 
 def poke_search():
-    searchagain = input("efeffweffe")
-    y = searchagain.capitalize()
-    if y == "Yes"():
+    y = input("efeffweffe: ")
+
+    if y == "Yes":
         search = input("What Pokemon Are You Trying to Find")
         for poke_names in data:
             for search in poke_names["name"]["english"]:    
