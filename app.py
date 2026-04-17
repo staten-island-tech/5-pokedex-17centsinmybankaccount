@@ -1,7 +1,7 @@
 import json
 pokedex = open("./pokedex.json", encoding="utf8")
 data = json.load(pokedex)
-
+ 
 
 
 
@@ -32,13 +32,10 @@ def choose_lang():
 
 #Develop a function to find all pokemon matching the name the user searched for. Ex. if "Char" return Charmander, Charmeleon and Charizard. Make the user aware if no pokemon was found. 
 def poke_search():
-    y = input("efeffweffe: ")
-
-    if y == "Yes":
-        search = input("What Pokemon Are You Trying to Find")
-        for poke_names in data:
-            for search in poke_names["name"]["english"]:    
-                print(poke_names["name"]["english"])
+    search = input("What Pokemon Are You Trying to Find")
+    for poke_names in data:
+        for search in poke_names["name"]["english"]:    
+            print(poke_names["name"]["english"])
 poke_search()
 
 #For Leo/, help me come up with a clever final question, considering maybe showing all moves a pokemon has avaiable based on type
